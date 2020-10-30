@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>CS1300 JavaScript Studio</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <!-- TODO: ADD HTML FOR WHATEVER YOU WANT TO SHOW ON THE PAGE!  -->
-  </body>
-  <script src="app.js"></script>
+<head>
+  <title>CS1300 JavaScript Studio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- TODO: ADD HTML FOR WHATEVER YOU WANT TO SHOW ON THE PAGE!  -->
+  <h1>Plants</h1>
+  <button id="control" onclick=displayContent()> Show me plants </button>
+
+  <div class="container-fluid">
+    <div class="row beech">
+      <h2>Plants from the Beech Family</h2>
+      <div class="col" id="beechplants"></div>
+    </div>
+    <div class="row buttercup">
+      <h2>Plants from the Buttercup Family</h2>
+      <div class="col" id="buttercupplants"></div>
+    </div>
+  </div>
+
+</body>
+
+<script src="app.js"></script>
+
 </html>
